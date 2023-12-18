@@ -1,0 +1,180 @@
+/* Todo: 
+
+1. Add better <a> styling 
+2. Add better styling for the navigtion
+3. Add the correct colours and fonts
+4. Add more styles to the page, this could include positioning, layout, additional colors, box model properties, and more.
+5. Add each section to their own page
+*/
+
+
+/* Universal Styles */
+html{
+    display: block;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 26px;
+    /* This is still to be chosen */
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 18px;
+    /* This is still to be chosen */
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Header */
+header{}
+
+/* Banner */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items:center;
+    height: 30rem;
+    background: url("./people-computer.png");
+    background-size: cover;
+    color: #FFF8DC;
+}
+
+.banner h1{
+    font-size: 2.44rem;
+}
+
+/* Navigation */
+.header{
+    box-sizing: border-box;
+    /* border-bottom: 1px solid blue; */
+    overflow-y: auto;
+    height: 4.4rem;
+}
+
+.nav{
+    display: inline;
+    top: 0px;
+    right: 0px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+nav ul{
+    display: inline;
+    right: 0px;
+}
+
+nav li{    
+    display: inline;
+    /* padding: 10px; */
+    padding-right: 2.22rem;
+}
+
+nav img{
+    /* border: 1px solid blue; */
+    display: inline;
+    width: 24px;
+    /* padding: 10px 40px; */
+}
+
+/* All Section */
+section{
+    display: block;
+}
+
+.container{
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Colour Section */
+.colour-box{
+    /* border: 1px solid #6495ED; */
+    display: inline-block;
+    width: 32%;
+    min-height: 80px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.colour-blue{
+    background-color: #6495ED;
+    color: #fff;
+}
+
+.blue{
+    /* border: 1px solid #fff; */
+}
+
+.blue-hex{
+    /* border: 1px solid #fff; */
+}
+
+
+/* Font Section */
+.font-box{
+    display: inline-block;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.italics{
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* Text Style Section */
+
+.h1-heading{
+    font-weight: 700;
+    font-size: 26px;
+    /* This is still to be chosen */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    padding-left: 10px;
+    display: list-item;
+}
+
+.bullet-points li{
+    list-style: square inside;  
+    line-height: 1.5;  
+}
+
+.h2-heading{
+    font-weight: 500;
+    font-size: 18px;
+    /* This is still to be chosen */
+    font-family: 'Courier New', Courier, monospace;
+}
